@@ -1,5 +1,8 @@
-# Problem
-- "...components/sum.ts' is not a module."
+# Problem & its Solution
+- Error: ...
+As of Jest 28 "jsdom" is no longer shipped by default, make sure to install it separately.
+
+`npm install -D jest-environment-jsdom`
 
 
 # Video
